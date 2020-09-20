@@ -20,7 +20,7 @@
       <template v-slot:body="{ items }">
         <tbody>
           <tr v-for="item in items" :key="item.text">
-            <th class="text-start" scope="row">{{ item['No'] === "不明" ? "不明" : item['No'] + "例目" }}</th>
+            <th class="text-start" scope="row">{{ item['No'] === '不明' ? '不明' : item['No'] + '例目' }}</th>
             <th class="text-start" scope="row">{{ item['公表日'] }}</th>
             <td class="text-start">{{ item['居住地'] }}</td>
             <td class="text-start">{{ item['年代と性別'] }}</td>
