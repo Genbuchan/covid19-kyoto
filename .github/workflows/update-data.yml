@@ -25,7 +25,7 @@ jobs:
     - name: Checkout covid19-scraping
       uses: actions/checkout@v2
       with:
-        repository: stop-covid19-kyoto/scraping-system
+        repository: stop-covid19-kyoto/covid19-scraping-go
         ref: 'gh-pages'
         path: 'scraping-system'
 
